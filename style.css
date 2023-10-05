@@ -1,0 +1,107 @@
+.my-font{
+font-family: 'Noto Sans Thai', sans-serif;
+}
+
+
+.my-bg{
+  background-color: #3B3C3B;
+}
+
+h3{
+	color: white;
+  font-size: 20px;
+     text-align: center;
+}
+
+p{
+  font-size: 25px;
+}
+
+.my-bg2{
+  background-color: #F4F1EC;
+}
+
+.padding-top {
+  padding-top: 150px;
+}
+
+.padding-top2 {
+  padding-top: 100px;
+}
+
+.margin-right-left {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+
+h1{
+   font-size: 50px;
+   text-align: center;
+}
+
+.bg-information{
+	background-image: url("../images/information.png");
+  background-repeat: no-repeat;
+}
+
+.bg-blue	{
+ background-color:#CAD4D5;
+}
+
+.row-bottom{
+padding-bottom: 200px;
+}
+
+.bg-work-history{
+	background-image: url("../images/bg-work-history.png");
+  background-repeat: no-repeat;
+}
+
+.size-skill{
+  font-size: 30px;
+}
+
+.size-skill2{
+  font-size: 20px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center{
+  text-align: center;
+}
+
+.padding-left-right{
+padding-left: 90px;
+  padding-right: 90px;
+}
+
+
+
+.padding-right-50{
+  padding-right: 50px;
+}
+
+.padding-left-50{
+  padding-left: 50px;
+}
+
+.padding-top-skill{
+padding-top: 30px;
+}
+
+.padding-top-content{
+padding-top: 50px;
+}
+
+.bg-footer{
+   background-color: black;;
+  padding-bottom: 50px;
+}
