@@ -13,6 +13,10 @@ h3{
      text-align: center;
 }
 
+.center {
+  text-align: center;
+}
+
 p{
   font-size: 25px;
 }
@@ -58,7 +62,7 @@ padding-bottom: 200px;
 }
 
 .size-skill2{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .left {
