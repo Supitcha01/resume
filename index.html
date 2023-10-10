@@ -21,45 +21,54 @@
     <link type="text/css" rel="stylesheet" href="css/animation.css">
   </head>
   <body class="my-font">
-    <div class="container-fluid padding-left-right">
+    <div class="container-fluid">
       <div class="row">
-        <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-          <div class="bg-dark p-4">
-            <h2 class="text-body-emphasis h2">สารบัญ</h2>
-            <br>
-            <span class="text-body-secondary">
-              <h3> <a class=" link-light link-offset-2 link-underline link-underline-opacity-0"
+        <nav class="navbar bg-dark border-bottom border-body fixed-top " data-bs-theme="dark">
+          <div class="container-fluid"> <a class="navbar-brand" href="#"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
 
-                  href="#objective">จุดมุ่งหมายการทำงาน</a></h3>
-              <h3><a class=" link-light link-offset-2 link-underline link-underline-opacity-0"
-
-                  href="#sensitive_information">ข้อมูลส่วนตัว</a></h3>
-              <h3><a class=" link-light link-offset-2 link-underline link-underline-opacity-0"
-
-                  href="#contact">ช่องทางการติดต่อ</a></h3>
-              <h3><a class=" link-light link-offset-2 link-underline link-underline-opacity-0"
-
-                  href="#education">ประวัติการศึกษา&nbsp;</a></h3>
-              <h3><a class=" link-light link-offset-2 link-underline link-underline-opacity-0"
-
-                  href="#work"> ประวัติการทำงานและฝึกงาน</a> </h3>
-              <h3> <a class=" link-light link-offset-2 link-underline link-underline-opacity-0"
-
-                  href="#skill">&nbsp; ทักษะความสามารถ </a></h3>
-              <h3><a class=" link-light link-offset-2 link-underline link-underline-opacity-0"
-
-                  href="#activity"> กิจกรรมที่เข้าร่วมในระหว่างการศึกษา</a></h3>
-            </span> </div>
-        </div>
-        <nav class="navbar navbar-dark bg-dark">
-          <div class="container-fluid"> <button class="navbar-toggler" type="button"
-
-              data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
-
-              aria-controls="navbarToggleExternalContent" aria-expanded="false"
+              data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
 
               aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
-            </button> </div>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="contentNavbarLabel">สารบัญ</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+
+                  aria-label="Close"></button> </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item"><a class="link-light nav-link" aria-current="page"
+
+                      href="#">Home</a></li>
+                  <li class="nav-item"> <a class="nav-link link-light link-offset-2 link-underline link-underline-opacity-0"
+
+                      href="#objective">จุดมุ่งหมายในการทำงาน</a></li>
+                  <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline link-underline-opacity-0"
+
+                      href="#sensitive_information">ข้อมูลส่วนตัว</a></li>
+                  <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline link-underline-opacity-0"
+
+                      href="#contact">ช่องทางการติดต่อ</a></li>
+                  <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline link-underline-opacity-0"
+
+                      href="#education">ประวัติการศึกษา</a></li>
+                  <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline link-underline-opacity-0"
+
+                      href="#work">ประวัติการทำงานและฝึกงาน</a></li>
+                  <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline link-underline-opacity-0"
+
+                      href="#skill">ทักษะความสามารถ</a></li>
+                  <li class="nav-item"><a class="nav-link link-light link-offset-2 link-underline link-underline-opacity-0"
+
+                      href="#activity">กิจกรรมที่เข้าร่วมระหว่างการศึกษา</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </nav>
       </div>
       <div class="div" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
@@ -68,70 +77,72 @@
       </div>
       <div class="row padding-top my-bg2 my-font-size">
         <div class="div" data-aos="zoom-in">
-          <h1><a id="objective"><span style="color: #dd9883;">จุดมุ่งหมาย</span>ในการทำงาน </a></h1>
+          <h1 class="center"><a id="objective"><span style="color: #dd9883;">จุดมุ่งหมาย</span>ในการทำงาน </a></h1>
         </div>
       </div>
       <div class="row"><img src="images/objective.png" class="img-fluid px-0" alt="objective"></div>
-      <div class="row my-font-size">
-        <div class="col-md-6 bg-information  padding-top  row-bottom">
+      <div class="row my-font-size ">
+        <div class="col-md-6 col-sm-12 bg-information  padding-top  row-bottom">
           <div class="div" data-aos="zoom-in">
-            <h1><a id="sensitive_information">ข้อมูล<span style="color: #dd9883;">ส่วนตัว</span></a></h1>
+            <h1 class="center"><a id="sensitive_information">ข้อมูล<span style="color: #dd9883;">ส่วนตัว</span></a></h1>
           </div>
           <br>
           <br>
           <br>
           <p class="size-skill2 padding-left-90"> <img src="images/name.png" alt="name"
 
-              class="rounded-circle " height="50">&nbsp; <b>ชื่อ-นามสกุล:</b>
+              class="rounded-circle " height="50">&nbsp; <b>ชื่อ-นามสกุล:&nbsp;</b>
             นางสาวสุพิชชา ทรัพย์สังข์ </p>
           <br>
           <p class="size-skill2 padding-left-90"> <img src="images/birthday.png"
 
-              alt="cake" class="rounded-circle" height="50">&nbsp; <b>วันเกิด:</b>
-            27 มกราคม พ.ศ. 2545 </p>
+              alt="cake" class="rounded-circle" height="50">&nbsp; <b>วันเกิด:
+              &nbsp;</b>27 มกราคม พ.ศ. 2545 </p>
           <br>
           <p class="size-skill2 padding-left-90"> <img src="images/address.png"
 
-              alt="home" class="rounded-circle" height="50">&nbsp; <b>ที่พักอาศัย:</b> 18/16 เอื้ออาทรหัวหมาก <br>
+              alt="home" class="rounded-circle" height="50">&nbsp; <b>ที่พัก
+              อาศัย:&nbsp;</b> 18/16 เอื้ออาทรหัวหมาก <br>
             ซอยกรุงเทพกรีฑา 7 แยก 2 ถนนกรุงเทพกรีฑา <br>
             แขวงหัวหมาก เขตบางกะปิ กรุงเทพมหานคร 10240</p>
         </div>
-        <div class="col-md-6 bg-blue  padding-top">
+        <div class="col-md-6 col-sm-12 bg-blue  padding-top  row-bottom">
           <div class="div" data-aos="zoom-in">
-            <h1><a id="contact">ช่องทาง<span style="color: #dd9883;">การติดต่อ</span></a></h1>
+            <h1 class="center"><a id="contact">ช่องทาง<span style="color: #dd9883;">การติดต่อ</span></a></h1>
           </div>
           <br>
           <br>
           <br>
           <p class="size-skill2 padding-left-90"> <img src="images/telephone.png"
 
-              alt="telephone" class="rounded-circle" height="50">&nbsp; <b>หมายเลขติดต่อ:</b>&nbsp; 090-XXX-XXXX</p>
+              alt="telephone" class="rounded-circle" height="50">&nbsp; <b>หมาย
+              เลขติดต่อ:</b>&nbsp; 090-XXX-XXXX</p>
           <br>
-          <p class="size-skill2 padding-left-90"> <img src="images/gmail.png" alt="gmail"
+          <p class="size-skill2 padding-left-90"> <img src="images/gmail.png"
 
-              class="rounded-circle" height="50">&nbsp; <b>Gmail:</b>&nbsp;
+              alt="gmail" class="rounded-circle" height="50">&nbsp; <b>Gmail:</b>&nbsp;
             supitchasabsang@gmail.com</p>
         </div>
       </div>
-      <div class="row my-bg2 padding-top">
+      <div class="row my-bg2 padding-top  row-bottom">
         <div class="div" data-aos="flip-up">
-          <h1><a id="education">ประวัติ<span style="color: #dd9883;">การศึกษา</span></a>&nbsp;<img
-
-              src="images/hat.png" alt="hat" width="80"></h1>
+          <h1 class="center"><a id="education">ประวัติ<span style="color: #dd9883;">การศึกษา</span></a>&nbsp;<img src="images/hat.png" alt="hat" width="80"></h1>
         </div>
         <img src="images/education.png" alt="education"></div>
       <div class="row  bg-work-history padding-top row-bottom my-font-size">
         <div class="div" data-aos="flip-up">
-          <h1><a id="work">ประวัติ<span style="color: #dd9883;">การทำงานและฝึกงาน</span></a><img src="images/work.png" alt="work" width="80"></h1>
+          <h1 class="center"><a id="work">ประวัติ<span style="color: #dd9883;">การทำงานและฝึกงาน</span></a><img src="images/work.png" alt="work" width="80"></h1>
         </div>
       </div>
       <div class="row bg-blue padding-top">
         <div class="div" data-aos="zoom-in">
-          <h1><span style="color: #dd9883;"> <a id="skill">ทักษะ</a></span><a id="skill">ความสามารถ</a></h1>
+          <h1 class="center"><span style="color: #dd9883;"> <a id="skill">ทักษะ</a></span><a
+
+              id="skill">ความสามารถ</a></h1>
         </div>
       </div>
       <div class="row bg-blue padding-top2 row-bottom center">
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-12">
           <div class="badge text-bg-light  size-skill"> ทักษะด้านการใช้โปรแกรม </div>
           <br>
           <br>
@@ -169,7 +180,7 @@
               <br>
               •<b>BlueGriffon</b>&nbsp; ระดับพอใช้ </span> </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-12">
           <div class="badge text-bg-light  size-skill"> ทักษะด้านภาษาต่างประเทศ
           </div>
           <br>
@@ -180,9 +191,10 @@
 
               alt="english" height="125"></div>
           <br>
-          <p class="size-skill2"><b>ภาษาอังกฤษ:&nbsp; </b>ผ่านการสอบ STEP ระดับ B2</p>
+          <p class="size-skill2"><b>ภาษาอังกฤษ:&nbsp; </b>ผ่านการสอบ STEP ระดับ
+            B2</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-12">
           <div class="badge text-bg-light  size-skill"> ทักษะด้านการทำงาน </div>
           <br>
           <br>
@@ -201,11 +213,11 @@
       </div>
       <div class="row padding-top my-font-size  my-bg2">
         <div class="div" data-aos="flip-up">
-          <h1><a id="activity"><span style="color: #dd9883;">กิจกรรม</span>ที่ทำในระหว่างการศึกษา</a></h1>
+          <h1 class="center"><a id="activity"><span style="color: #dd9883;">กิจกรรม</span>ที่เข้าร่วมในระหว่างการศึกษา</a></h1>
         </div>
       </div>
       <div class="row my-bg2  padding-top2   row-bottom  padding-left-right">
-        <div class="col-md-6">
+        <div class="col-md-6 col-sm-12">
           <div id="carouselMyFade" class="carousel slide carousel-fade">
             <div class="carousel-inner">
               <div class="carousel-item active"> <a href="images/welcome1.jpg"
@@ -230,18 +242,20 @@
               data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span> </button> </div>
         </div>
-        <div class="col-md-6 center size-skill">
+        <div class="col-md-6 col-sm-12 center size-skill">
           <div class="div" data-aos="fade-left"><b>กิจกรรมต้อนรับอุ่นใจน้องใหม่หอพัก</b> <br>
             <br>
-            <p class="size-skill2"> <b>"</b>เข้าร่วมกิจกรรมในฐานะคณะกรรมการหอพักนักศึกษา<br>
+            <p class="size-skill2"> <b>" </b>เข้าร่วมกิจกรรมในฐานะคณะกรรมการหอพักนักศึกษา<br>
               ในระหว่างการทำกิจกรรมได้ช่วยนักศึกษาระดับชั้นปีที่ 1
-              ที่เข้าพักอาศัยในหอพักนักศึกษาเป็นครั้งแรกขนของขึ้นหอพักและได้มีการ
-              แบ่งงานให้นักศึกษาที่มาช่วยกิจกรรมได้ทำ<b>"</b></p>
+              ที่เข้าพักอาศัย<br>ในหอพักนักศึกษาเป็นครั้งแรกขนของขึ้นหอพักและได้มีการ<br>แบ่งงานให้นักศึกษาที่มาช่วยกิจกรรมได้ทำ<b> "</b></p>
           </div>
         </div>
       </div>
+      
+      
+      
       <div class="row  my-bg2 row-bottom size-skill  padding-left-right">
-        <div class="col-md-6 order-md-1 order-lg-2 order-sm-1">
+        <div class="col-md-6 col-sm-12 order-md-1 order-lg-2 order-sm-1">
           <div id="carouselExampleFade" class="carousel slide carousel-fade">
             <div class="carousel-inner">
               <div class="carousel-item active"> <a href="images/dorm1.png" data-lightbox="ปฐมนิเทศหอพักนักศึกษา">
@@ -281,16 +295,12 @@
               data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span> </button> </div>
         </div>
-        <div class="col-md-6 order-md-2  order-lg-1  order-sm-2 center">
+        <div class="col-md-6 col-sm-12 order-md-2  order-lg-1  order-sm-2 center">
           <div class="div" data-aos="fade-right"> <b>กิจกรรมปฐมนิเทศหอพักนักศึกษา</b><br>
             <br>
-            <p class="size-skill2"><b>"</b>เข้าร่วมกิจกรรมในฐานะคณะกรรมการหอพักนักศึกษา<br>
-              กิจกรรมได้แบ่งออกเป็น 2 ช่วง
-              ในช่วงเช้าได้จัดกิจกรรมให้นักศึกษาและบุคคลทั่วไปทำบุญตักบาตร
-              และในช่วงบ่ายได้จัดกิจกรรมให้นักศึกษาชั้นปีที่ 1
-              ที่เข้าอยู่อาศัยหอพักในเป็นครั้งแรกเข้าร่วมกิจกรรมเพื่อสานสัมพันธ์ระหว่างคณะ
-              กรรมการหอพักและผู้ที่อาศัยอยู่ในหอพัก
-              อีกทั้งในกิจกรรมยังมีการให้ข้อมูลที่เป็นประโยชน์ในการพักอาศัยในหอพักในอีกด้วย<b>"</b></p>
+            <p class="size-skill2"><b>" </b>เข้าร่วมกิจกรรมในฐานะคณะกรรมการหอพักนักศึกษา<br>
+              กิจกรรมได้แบ่งออกเป็น 2 ช่วง ในช่วงเช้าได้จัดกิจกรรม<br>ให้นักศึกษาและบุคคลทั่วไปทำบุญตักบาตร
+              และในช่วงบ่ายได้จัดกิจกรรม<br>ให้นักศึกษาชั้นปีที่ 1 ที่เข้าอยู่อาศัยหอพักในเป็นครั้งแรกเข้าร่วม<br>กิจกรรมเพื่อสานสัมพันธ์ระหว่างคณะกรรมการหอพักและ<br>ผู้ที่อาศัยอยู่ในหอพักอีกทั้งในกิจกรรมยังมีการให้ข้อมูลที่เป็นประโยชน์<br>ในการพักอาศัยในหอพักในอีกด้วย<b> "</b></p>
           </div>
           <br>
           <br>
@@ -303,15 +313,15 @@
 
 integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
 
-crossorigin="anonymous"></script> </div>
-    <script src="js/lightbox-plus-jquery.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
+crossorigin="anonymous"></script>
+      <script src="js/lightbox-plus-jquery.min.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
       AOS.init({
         duration: 3000,
         once: true,
       });
-    </script>
+    </script></div>
     
   </body>
 </html>

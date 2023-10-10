@@ -29,7 +29,7 @@ h3{
   padding-top: 100px;
 }
 
-h1{
+.big-heading{
    font-size: 50px;
    text-align: center;
 }
@@ -53,11 +53,11 @@ padding-bottom: 200px;
 }
 
 .size-skill{
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .size-skill2{
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .left {
@@ -84,8 +84,10 @@ padding-left: 100px;
 }
 
 .padding-left-90{
-  padding-left: 90px;
+  padding-left: 100px;
 }
+
+
 
 .padding-top-skill{
 padding-top: 30px;
@@ -96,6 +98,6 @@ padding-top: 50px;
 }
 
 .bg-footer{
-   background-color: black;;
+   background-color: black;
   padding-bottom: 50px;
 }
